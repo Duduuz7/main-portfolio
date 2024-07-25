@@ -13,7 +13,8 @@ const Hero = () => {
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile
-            paddingTop: "100px",
+            paddingTop: "62px",
+            // paddingBottom: "-100px"
         },
         [theme.breakpoints.up('md')]: { // >=mobile
             paddingTop: "0",
@@ -21,9 +22,18 @@ const Hero = () => {
     }))
 
     const StyledImg = styled("img")(({ theme }) => ({
-        width: "75%",
+        // width: "75%",
         borderRadius: "11%",
-        border: `1px solid ${theme.palette.primary.contrastText}`
+        border: `1px solid ${theme.palette.primary.contrastText}`,
+
+        [theme.breakpoints.up('xs')]: { // <= mobile
+            width: "40%",
+            marginBottom: "-30%"
+        },
+        [theme.breakpoints.up('md')]: { // >=mobile
+            width: "75%",
+        }
+        
     }))
 
     return (
@@ -49,7 +59,7 @@ const Hero = () => {
                                     <StyledButton>
                                         <DownloadIcon />
                                         <Typography>
-                                            Download Currículo
+                                            Download CV
                                         </Typography>
                                     </StyledButton>
                                 </Grid>

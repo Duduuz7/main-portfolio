@@ -3,18 +3,21 @@ import { createTheme, responsiveFontSizes } from "@mui/material";
 let theme = createTheme({
     palette: {
         primary: {
-            main: '#232323',
+            // main: '#232323',
+            main: '#000221',
         },
         secondary: {
-            main: '#4f8e3e',
-        },
+            // main: '#4f8e3e', 
+            // main: '#b32e68', 
+            main: '#C5007D', 
+        },      
     },
-    typography: {
+    typography: {   
         fontFamily: [
-            '"Helvetica Neue"',
+            // '"Helvetica Neue"',
             // '-apple-system',
-            // 'BlinkMacSystemFont',
-            // '"Segoe UI"',
+            // 'JetBrains Mono',
+            '"Segoe UI"',
             // 'Roboto',
             // '"Helvetica Neue"',
             // 'Arial',
