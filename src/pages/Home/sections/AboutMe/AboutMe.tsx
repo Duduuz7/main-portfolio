@@ -12,7 +12,7 @@ const AboutMe = () => {
 
     const StyledAboutMe = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.contrastText,
-        height: "286vh",
+        height: "230vh",
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile

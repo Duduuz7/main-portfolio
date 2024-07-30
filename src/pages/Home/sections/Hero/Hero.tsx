@@ -10,17 +10,14 @@ const Hero = () => {
 
     const StyledHero = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.main,
-        height: "125vh",
+        height: "110vh",
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile
-            paddingTop: "65px",
-            // paddingBottom: "-100px"
+
         },
         [theme.breakpoints.up('md')]: { // >=mobile
-            paddingTop: "0",
-            marginTop: "-122px",
-            height: "119vh"
+
         }
     }))
 
@@ -31,7 +28,6 @@ const Hero = () => {
 
         [theme.breakpoints.up('xs')]: { // <= mobile
             width: "55%",
-            marginBottom: "-30%"
         },
         [theme.breakpoints.up('md')]: { // >=mobile
             width: "75%",

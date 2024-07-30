@@ -3,6 +3,7 @@ import NavBar from "../../components/NavBar/NavBar"
 import AboutMe from "./sections/AboutMe/AboutMe"
 import Hero from "./sections/Hero/Hero"
 import Projects from "./sections/Projects/Projects";
+import Footer from "../../components/Footer/Footer";
 
 
 const Home = () => {
@@ -25,13 +26,16 @@ const Home = () => {
             />
 
             <Hero />
+
             <div ref={aboutMeRef}>
                 <AboutMe />
             </div>
-            {/* Supondo que você tenha componentes para Skills e Projects */}
+
             <div ref={projectsRef}> 
                 <Projects/> 
-             </div> 
+            </div> 
+
+            <Footer/>
         </>
     )
 }
