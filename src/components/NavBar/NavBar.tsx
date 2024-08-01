@@ -1,5 +1,4 @@
 import { AppBar, MenuItem, Toolbar, styled } from "@mui/material"
-import { ReactNode } from "react"
 
 interface NavBarProps {
     onClickAbout: () => void;

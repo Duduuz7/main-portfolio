@@ -14,7 +14,9 @@ const Home = () => {
 
     // Funções para rolar até as seções
     const handleScrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
-        ref.current.scrollIntoView({ behavior: "smooth" });
+        if (ref.current) {
+            ref.current.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     return (
