@@ -12,7 +12,7 @@ const AboutMe = () => {
 
     const StyledAboutMe = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.contrastText,
-        height: "230vh",
+        height: "235vh",
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile
@@ -58,9 +58,6 @@ const AboutMe = () => {
                                 <Typography fontWeight={"Bold"} fontSize={18}>
                                     Educação
                                 </Typography>
-                                {/* <Typography fontSize={18} fontWeight={"Italic"}>
-                                    Inglês Intermediário
-                                </Typography> */}
                                 <Typography fontWeight={"Italic"} fontSize={18}>
                                     Técnico em Desenvolvimento de Sistemas
                                 </Typography>

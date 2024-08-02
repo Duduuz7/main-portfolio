@@ -4,7 +4,9 @@ import DownloadIcon from '@mui/icons-material/Download';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
-// import { Height } from "@mui/icons-material";
+
+import curriculoEduardoDev from "../../../../assets/documents/CurriculoEduardoDev.pdf"
+
 
 const Hero = () => {
 
@@ -71,7 +73,15 @@ const Hero = () => {
                             <Grid container display="flex" justifyContent="center" gap={0} spacing={4} pt={4}>
 
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center" >
-                                    <StyledButton>
+                                    <StyledButton 
+                                    onClick={() => {
+                                        // Método para fazer download do currículo, utilizando elemento "a" para criar um "link" temporário
+                                        const link = document.createElement("a");
+                                        link.href = curriculoEduardoDev;
+                                        link.download = "CurriculoEduardoDev";
+                                        link.click();
+                                    }}
+                                    >
                                         <DownloadIcon />
                                         <Typography>
                                             Download CV
@@ -80,7 +90,11 @@ const Hero = () => {
                                 </Grid>
 
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center" >
-                                    <StyledButton>
+                                    <StyledButton 
+                                        onClick={() => {
+                                            console.log("asdas");
+                                        }}
+                                    >
                                         <MailOutlineIcon />
                                         <Typography>
                                             Contato
