@@ -36,7 +36,7 @@ const Projects = () => {
         }
     }))
 
-    const StyledVideo = styled("video")(({ theme }) => ({
+    const StyledVideo = styled("video")(({}) => ({
         width: "100%",
         marginTop: "25px",
         marginBottom: "25px",
