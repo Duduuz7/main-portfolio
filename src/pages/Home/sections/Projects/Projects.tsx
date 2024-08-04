@@ -17,7 +17,7 @@ const Projects = () => {
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile
-            height: "522vh",
+            height: "518vh",
         },
         [theme.breakpoints.up('md')]: { // >=mobile
             height: "295vh",
