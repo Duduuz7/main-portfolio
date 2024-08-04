@@ -17,7 +17,7 @@ const Projects = () => {
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile
-            height: "518vh",
+            height: "522vh",
         },
         [theme.breakpoints.up('md')]: { // >=mobile
             height: "295vh",
@@ -46,7 +46,6 @@ const Projects = () => {
         marginTop: "25px",
         marginBottom: "25px",
         height: "500px",
-        // border: `1px solid ${theme.palette.primary.contrastText}`
     }));
 
     const StyledImageCardGamer = styled("img")(({ }) => ({
@@ -64,7 +63,7 @@ const Projects = () => {
         alignSelf: "center",
         justifySelf: "center",
         marginTop: "255px",
-        marginBottom: "254px",
+        marginBottom: "257px",
     }));
 
 
@@ -115,14 +114,6 @@ const Projects = () => {
                                     </StyledButtonCard>
                                 </Grid>
 
-                                {/* <Grid item xs={12} md={5.9} display="flex" justifyContent="center" >
-                                        <StyledButtonCard>
-                                            <Typography>
-                                                Ver projeto
-                                            </Typography>
-                                        </StyledButtonCard>
-                                    </Grid> */}
-
                             </Grid>
 
                         </StyledProjectCard>
@@ -156,14 +147,6 @@ const Projects = () => {
                                     </StyledButtonCard>
                                 </Grid>
 
-                                {/* <Grid item xs={12} md={12} display="flex" justifyContent="center" >
-                                        <StyledButtonCard>
-                                            <Typography>
-                                                Ver projeto
-                                            </Typography>
-                                        </StyledButtonCard>
-                                    </Grid> */}
-
                             </Grid>
 
                         </StyledProjectCard>
@@ -179,7 +162,7 @@ const Projects = () => {
                         <StyledProjectCard>
 
                             <Typography fontWeight={"Bold"} fontSize={18}>Gamer</Typography>
-                            <Typography fontWeight={"Italic"} fontSize={16}>Fevereiro 2023 - Março 2024</Typography>
+                            <Typography fontWeight={"Italic"} fontSize={16}>Fevereiro 2023 - Março 2023</Typography>
 
                             <StyledImageCardGamer src={logoGamer} />
 
@@ -228,7 +211,7 @@ const Projects = () => {
                         <StyledProjectCard>
 
                             <Typography fontWeight={"Bold"} fontSize={18}>Event +</Typography>
-                            <Typography fontWeight={"Italic"} fontSize={16}>Fevereiro 2024 - Maio 2024</Typography>
+                            <Typography fontWeight={"Italic"} fontSize={16}>Outubro 2023 - Dezembro 2023</Typography>
 
                             <StyledImageCardEvent src={logoEvent} />
 
