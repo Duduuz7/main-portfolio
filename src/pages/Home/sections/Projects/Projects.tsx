@@ -67,7 +67,7 @@ const Projects = () => {
                                 <Typography fontWeight={"Bold"} fontSize={18}>Floralía</Typography>
                                 <Typography fontWeight={"Italic"} fontSize={16}>Maio 2024 - Junho 2024</Typography>
 
-                                <StyledVideo autoPlay src={videoFloralia} preload="auto" loop />
+                                <StyledVideo autoPlay={true} src={videoFloralia} preload="auto" loop />
 
 
                                 <Typography width={"100%"} textAlign={"left"} marginBottom={1.5} fontWeight={"Italic"} fontSize={16}>Um aplicativo com o objetivo de ajudar a modernizar uma floricultura tradicional em meio aos tantos avanços tecnológicos com a intenção de ampliar suas vendas para novos públicos, tornando a loja mais acessível. Interface simples e compreensível a todas as idades, acesso simples e fácil beneficiando o consumidor e a loja!</Typography>
@@ -113,7 +113,7 @@ const Projects = () => {
                                 <Typography fontWeight={"Bold"} fontSize={18}>VitalHub</Typography>
                                 <Typography fontWeight={"Italic"} fontSize={16}>Fevereiro 2024 - Maio 2024</Typography>
 
-                                <StyledVideo autoPlay src={videoVitalHub} preload="auto" loop />
+                                <StyledVideo autoPlay={true} src={videoVitalHub} preload="auto" loop />
 
                                 <Typography width={"100%"} marginBottom={1.5} textAlign={"left"} fontWeight={"Italic"} fontSize={16}>O projeto "VitalHub" oferece uma solução abrangente para a gestão de consultas médicas. Onde há login de pacientes e médicos,implementação de câmera com leitura de imagem OCR, sistema de perfis, utilização do mapa Google Maps e facilidade no agendamento e cancelamento de consultas, sendo rápido e prático!</Typography>
 

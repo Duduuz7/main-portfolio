@@ -13,7 +13,7 @@ const NavBar: React.FC<NavBarProps> = ({onClickAbout, onClickSkills, onClickProj
 
         [theme.breakpoints.up('xs')]: { // <= mobile
             // width: "55%",
-            // marginBottom: "-30%"
+            // marginBottom: "-90px",
             marginRight: "2px"
         },
         [theme.breakpoints.up('md')]: { // >=mobile

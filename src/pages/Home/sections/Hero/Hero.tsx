@@ -30,6 +30,7 @@ const Hero = () => {
 
         [theme.breakpoints.up('xs')]: { // <= mobile
             width: "55%",
+            marginBottom: "-60px"
         },
         [theme.breakpoints.up('md')]: { // >=mobile
             width: "75%",
@@ -70,7 +71,7 @@ const Hero = () => {
                             <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Eduardo Felipe</Typography>
                             <Typography color="primary.contrastText" variant="h2" textAlign="center" >Desenvolvedor Fullstack</Typography>
 
-                            <Grid container display="flex" justifyContent="center" gap={0} spacing={4} pt={4}>
+                            <Grid container display="flex" justifyContent="center" gap={0} spacing={2} pt={4}>
 
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center" >
                                     <StyledButton 
@@ -84,7 +85,7 @@ const Hero = () => {
                                     >
                                         <DownloadIcon />
                                         <Typography>
-                                            Download CV
+                                            Baixar CV
                                         </Typography>
                                     </StyledButton>
                                 </Grid>
@@ -92,7 +93,7 @@ const Hero = () => {
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center" >
                                     <StyledButton 
                                         onClick={() => {
-                                            console.log("asdas");
+                                            window.location.href = 'mailto:edufel2005@outlook.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email';
                                         }}
                                     >
                                         <MailOutlineIcon />
