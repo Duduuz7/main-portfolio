@@ -16,6 +16,7 @@ const StyledMenuBar = styled(Toolbar)<{ showMenubar: boolean }>(({ showMenubar }
     justifyContent: "space-evenly",
     position: "fixed",
     top: "0px",
+    // height: "750px",
     right: "-40px",
     width: "72%",
     paddingRight: "8.5%",
