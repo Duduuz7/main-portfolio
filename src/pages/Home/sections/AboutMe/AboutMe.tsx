@@ -89,7 +89,7 @@ const AboutMe = () => {
                         </Grid>
                         <Grid item xs={12} md={2} display="flex" justifyContent="center" >
                             <StyledButtonLight>
-                                <Typography fontWeight={"Bold"} fontSize={18}>Typescript</Typography>
+                                <Typography fontWeight={"Bold"} fontSize={18}>Tailwind CSS</Typography>
                             </StyledButtonLight>
                         </Grid>
                         <Grid item xs={12} md={2} display="flex" justifyContent="center" >
