@@ -20,8 +20,11 @@ const Projects = () => {
             height: "518vh",
         },
         [theme.breakpoints.up('md')]: { // >=mobile
-            height: "295vh",
-        }
+            height: "360vh",
+        },
+        [theme.breakpoints.up('xl')]: { // >=mobile
+            height: "305vh",
+        },
     }))
 
     const CardContainer = styled("div")(({ theme }) => ({

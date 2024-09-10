@@ -33,19 +33,19 @@ const Footer = () => {
 
                         <Grid item xs={4} md={4}>
                             <a href="https://github.com/Duduuz7">
-                                <GitHubIcon />
+                                <GitHubIcon htmlColor="#2E116B"/>
                             </a>
                         </Grid>
 
                         <Grid item xs={4} md={4} >
                             <a href="https://www.linkedin.com/in/dududev7/">
-                                <LinkedInIcon />
+                                <LinkedInIcon htmlColor="#2E116B"/>
                             </a>
                         </Grid>
 
                         <Grid item xs={4} md={4} >
                             <a href="https://www.instagram.com/dudukz._">
-                                <InstagramIcon />
+                                <InstagramIcon htmlColor="#2E116B"/>
                             </a>
                         </Grid>
 

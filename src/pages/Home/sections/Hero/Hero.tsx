@@ -19,8 +19,12 @@ const Hero = () => {
 
         },
         [theme.breakpoints.up('md')]: { // >=mobile
+            height: "120vh",
+        },
+        [theme.breakpoints.up('xl')]: { // >=mobile
+            height: "110vh",
+        },
 
-        }
     }))
 
     const StyledImg = styled("img")(({ theme }) => ({

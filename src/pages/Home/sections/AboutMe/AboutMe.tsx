@@ -19,7 +19,10 @@ const AboutMe = () => {
 
         },
         [theme.breakpoints.up('md')]: { // >=mobile
-            height: "103vh"
+            height: "160vh"
+        },
+        [theme.breakpoints.up('xl')]: { // >=mobile
+            height: "115vh"
         }
     }))
 
