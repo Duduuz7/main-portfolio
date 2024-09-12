@@ -12,11 +12,13 @@ const AboutMe = () => {
 
     const StyledAboutMe = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.contrastText,
-        height: "235vh",
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile
-
+            height: "295vh",
+        },
+        [theme.breakpoints.up(389)]: { // <= mobile
+            height: "235vh",
         },
         [theme.breakpoints.up('md')]: { // >=mobile
             height: "160vh"

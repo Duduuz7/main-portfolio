@@ -12,11 +12,13 @@ const Hero = () => {
 
     const StyledHero = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.main,
-        height: "110vh",
         display: "flex",
         alignItems: "center",
         [theme.breakpoints.up('xs')]: { // <= mobile
-
+            height: "132vh",
+        },
+        [theme.breakpoints.up(389)]: { // <= mobile
+            height: "110vh",
         },
         [theme.breakpoints.up('md')]: { // >=mobile
             height: "120vh",
