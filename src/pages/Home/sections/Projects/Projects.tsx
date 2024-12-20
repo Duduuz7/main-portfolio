@@ -95,7 +95,7 @@ const Projects = () => {
                             <Typography fontWeight={"Bold"} fontSize={18}>Floralía</Typography>
                             <Typography fontWeight={"Italic"} fontSize={16}>Maio 2024 - Junho 2024</Typography>
 
-                            <StyledVideo autoPlay={true} src={videoFloralia} preload="auto" loop />
+                            <StyledVideo autoPlay={true} muted src={videoFloralia} preload="metadata" loop />
 
 
                             <Typography width={"100%"} textAlign={"left"} marginBottom={1.5} fontWeight={"Italic"} fontSize={16}>O projeto "Floralía" é um aplicativo com o objetivo de ajudar a modernizar uma floricultura tradicional em meio aos tantos avanços tecnológicos com a intenção de ampliar suas vendas para novos públicos, tornando a loja mais acessível. Interface simples e compreensível a todas as idades, acesso simples e fácil beneficiando o consumidor e a loja!</Typography>
@@ -109,7 +109,7 @@ const Projects = () => {
                                     <StyledButtonCard
                                         onClick={() => {
                                             const url = 'https://github.com/Duduuz7/Projeto-Floralia.git';
-                                            return window.location.href = url;
+                                            return window.open(url, '_blank');
                                         }}
                                     >
 
@@ -133,7 +133,7 @@ const Projects = () => {
                             <Typography fontWeight={"Bold"} fontSize={18}>VitalHub</Typography>
                             <Typography fontWeight={"Italic"} fontSize={16}>Fevereiro 2024 - Maio 2024</Typography>
 
-                            <StyledVideo autoPlay={true} src={videoVitalHub} preload="auto" loop />
+                            <StyledVideo autoPlay={true} muted src={videoVitalHub} preload="metadata" loop />
 
                             <Typography width={"100%"} marginBottom={1.5} textAlign={"left"} fontWeight={"Italic"} fontSize={16}>O projeto "VitalHub" oferece uma solução abrangente para a gestão de consultas médicas. Onde há login de pacientes e médicos,implementação de câmera com leitura de imagem OCR, sistema de perfis e endereço, utilização do mapa Google Maps e facilidade no agendamento e cancelamento de consultas, sendo rápido e prático!</Typography>
 
@@ -143,9 +143,10 @@ const Projects = () => {
 
                                 <Grid item xs={12} md={12} display="flex" justifyContent="center" >
                                     <StyledButtonCard
+
                                         onClick={() => {
                                             const url = 'https://github.com/Duduuz7/vitalHub-duo';
-                                            return window.location.href = url;
+                                            return window.open(url, '_blank');
                                         }}>
                                         <Typography>
                                             Ver código
@@ -184,7 +185,7 @@ const Projects = () => {
                                     <StyledButtonCard
                                         onClick={() => {
                                             const url = 'https://github.com/Duduuz7/senai_repositorio_1_semestre/tree/main/projeto-gamer';
-                                            return window.location.href = url;
+                                            return window.open(url, '_blank');
                                         }}
                                     >
 
@@ -198,7 +199,7 @@ const Projects = () => {
                                 <Grid item xs={12} md={12} display="flex" justifyContent="center" >
                                     <StyledButtonCard onClick={() => {
                                         const url = 'https://projetogamereduardofelipe.vercel.app/';
-                                        return window.location.href = url;
+                                        return window.open(url, '_blank');
                                     }}>
                                         <Typography>
                                             Ver projeto
@@ -231,7 +232,7 @@ const Projects = () => {
                                     <StyledButtonCard
                                         onClick={() => {
                                             const url = 'https://github.com/Duduuz7/EventPlusDeploy';
-                                            return window.location.href = url;
+                                            return window.open(url, '_blank');
                                         }}>
                                         <Typography>
                                             Ver código
@@ -242,7 +243,7 @@ const Projects = () => {
                                 <Grid item xs={12} md={12} display="flex" justifyContent="center" >
                                     <StyledButtonCard onClick={() => {
                                         const url = 'https://eventpluseduardofelipe.vercel.app/';
-                                        return window.location.href = url;
+                                        return window.open(url, '_blank');
                                     }}>
                                         <Typography>
                                             Ver projeto

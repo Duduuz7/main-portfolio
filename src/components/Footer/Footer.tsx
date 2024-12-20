@@ -32,19 +32,19 @@ const Footer = () => {
                     <Grid display={"flex"} flexDirection={"row"} justifyContent={"space-around"} xs={4} md={4} marginBottom={2} >
 
                         <Grid item xs={4} md={4}>
-                            <a href="https://github.com/Duduuz7">
+                            <a href="https://github.com/Duduuz7" target="_blank">
                                 <GitHubIcon htmlColor="#2E116B"/>
                             </a>
                         </Grid>
 
                         <Grid item xs={4} md={4} >
-                            <a href="https://www.linkedin.com/in/dududev7/">
+                            <a href="https://www.linkedin.com/in/dududev7/" target="_blank">
                                 <LinkedInIcon htmlColor="#2E116B"/>
                             </a>
                         </Grid>
 
                         <Grid item xs={4} md={4} >
-                            <a href="https://www.instagram.com/dudukz._">
+                            <a href="https://www.instagram.com/dudukz._" target="_blank">
                                 <InstagramIcon htmlColor="#2E116B"/>
                             </a>
                         </Grid>
