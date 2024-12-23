@@ -222,7 +222,7 @@ const Projects = () => {
 
                             <StyledImageCardEvent src={logoEvent} />
 
-                            <Typography width={"100%"} marginBottom={1.5} textAlign={"left"} fontWeight={"Italic"} fontSize={16}>O projeto "Event+" é que tem como objetivo adequar uma empresa de eventos ao mercado e agilizar seus processs internos de agendamento de eventos relacionados a área de TI. Event+ vem para tornar o agendamento de eventos mais rápido, com uma interface moderna, sistema de login com usuário comum e administrador, comentário com IA de filtro de ofensas e muito mais!</Typography>
+                            <Typography width={"100%"} marginBottom={1.5} textAlign={"left"} fontWeight={"Italic"} fontSize={16}>O projeto "Event+" tem como objetivo adequar uma empresa de eventos ao mercado e agilizar seus processs internos de agendamento de eventos relacionados a área de TI. Event+ vem para tornar o agendamento de eventos mais rápido, com uma interface moderna, sistema de login com usuário comum e administrador, comentário com IA de filtro de ofensas e muito mais!</Typography>
 
                             <Typography textAlign={"left"} fontWeight={"Bold"} fontSize={16}>Tecnologias: React JS, HTML, CSS, Figma, SQL Server, C#</Typography>
 
