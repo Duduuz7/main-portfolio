@@ -5,7 +5,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 
-import curriculoEduardoDev from "../../../../assets/documents/CurriculoEduardoDev.pdf"
+import curriculoEduardoDev from "../../../../assets/documents/CurriculoEduardoFelipe.pdf"
 
 
 const Hero = () => {

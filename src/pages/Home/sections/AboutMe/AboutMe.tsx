@@ -5,6 +5,8 @@ import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 
 import SchoolIcon from '@mui/icons-material/School';
 
+// import LanguageIcon from '@mui/icons-material/Language';
+
 import StyledButtonLight from "../../../../components/StyledButtonLight/StyledButtonLight";
 
 
@@ -69,11 +71,23 @@ const AboutMe = () => {
                             </StyledCard>
                         </Grid>
 
+                         {/* <Grid>
+                            <StyledCard>
+                                <LanguageIcon/>
+                                <Typography paddingTop={2.3} fontWeight={"Bold"} fontSize={18}>
+                                    Idiomas
+                                </Typography>
+                                <Typography fontWeight={"Italic"} fontSize={18}>
+                                    Inglês Intermediário Superior B2
+                                </Typography>
+                            </StyledCard>
+                        </Grid> */}
+
                     </Grid>
 
                     <Grid marginTop={5}>
 
-                        <Typography marginBottom={2} marginTop={-2} fontWeight={"Medium"}>Sou o Eduardo Felipe, atualmente vivo em São Paulo, iniciei na área no começo de 2023 no curso de Desenvolvimento de Sistemas no Senai de Informática Paulo Antônio Skaf, desde então peguei paixão pela a área de tecnologia e estudo constantemente para aperfeiçoar meus conhecimentos. Possuo projetos em React, React Native, HTML, CSS, Javascript, C# e SQL Server.</Typography>
+                        <Typography marginBottom={2} marginTop={-2} fontWeight={"Medium"}>Meu nome é Eduardo Felipe, atualmente vivo em São Paulo, iniciei na área no começo de 2023 no curso de Desenvolvimento de Sistemas no Senai de Informática Paulo Antônio Skaf, desde então peguei paixão pela a área de tecnologia e estudo constantemente para aperfeiçoar meus conhecimentos. Possuo projetos em React, React Native, HTML, CSS, Javascript, C# e SQL Server. Atualmente curso Análise e Desenvolvimento de Sistemas na instituição FAM e possuo Inglês no nível Intermediário Superior B2</Typography>
 
                         <hr />
 
